@@ -1,8 +1,8 @@
 # SeasonalJobs Automator
 
 <p align="center">
-  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.3.0">
-    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.3.0-2563EB?style=for-the-badge" alt="Versão v1.3.0">
+  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.4.0">
+    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.4.0-2563EB?style=for-the-badge" alt="Versão v1.4.0">
   </a>
   <img src="https://img.shields.io/badge/Windows-10%2F11%20(64--bit)-0F172A?style=for-the-badge" alt="Windows 10/11 64-bit">
   <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe">
@@ -16,22 +16,22 @@ O **SeasonalJobs Automator** é um aplicativo desktop para **Windows 10 e Window
 
 ## Download (Versão Atual)
 
-[**Baixar SeasonalJobs_Setup.exe (v1.3.0)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
+[**Baixar SeasonalJobs_Setup.exe (v1.4.0)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
 
 | Informação | Detalhes |
 | --- | --- |
-| **Versão atual** | `v1.3.0` |
+| **Versão atual** | `v1.4.0` |
 | **Data de lançamento** | 24/11/2026 |
 | **Tamanho do instalador (`SeasonalJobs_Setup.exe`)** | 42.93 MB |
-| **Hash SHA-256** | `4d253485e8dad8e5a1cc75a1052b56f2abb6a0ca013a3f79fe2ca76bd2bc5662` |
+| **Hash SHA-256** | `854f5ab235654891890a982454124712325d3961fbffa4308c304e3feea50243` |
 
 - [Ver todas as versões lançadas e arquivos de verificação](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases)
 
 ---
 
-## Novidades da versão v1.3.0
+## Novidades da versão v1.4.0
 
-- Melhorias gerais de estabilidade, desempenho e compatibilidade na versão `v1.3.0`.
+- Melhorias gerais de estabilidade, desempenho e compatibilidade na versão `v1.4.0`.
 - Consulte a página de releases para acompanhar os detalhes completos desta atualização.
 
 ---
@@ -74,5 +74,5 @@ Get-FileHash .\SeasonalJobs_Setup.exe -Algorithm SHA256
 Compare o resultado exibido no PowerShell com o hash desta versão:
 
 ```text
-4d253485e8dad8e5a1cc75a1052b56f2abb6a0ca013a3f79fe2ca76bd2bc5662
+854f5ab235654891890a982454124712325d3961fbffa4308c304e3feea50243
 ```
