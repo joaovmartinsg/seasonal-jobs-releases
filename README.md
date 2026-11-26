@@ -1,8 +1,8 @@
 # SeasonalJobs Automator
 
 <p align="center">
-  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.4.5">
-    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.4.5-2563EB?style=for-the-badge" alt="Versão v1.4.5">
+  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.5.0">
+    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.5.0-2563EB?style=for-the-badge" alt="Versão v1.5.0">
   </a>
   <img src="https://img.shields.io/badge/Windows-10%2F11%20(64--bit)-0F172A?style=for-the-badge" alt="Windows 10/11 64-bit">
   <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe">
@@ -16,23 +16,22 @@ O **SeasonalJobs Automator** é um aplicativo desktop para **Windows 10 e Window
 
 ## Download (Versão Atual)
 
-[**Baixar SeasonalJobs_Setup.exe (v1.4.5)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
+[**Baixar SeasonalJobs_Setup.exe (v1.5.0)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
 
 | Informação | Detalhes |
 | --- | --- |
-| **Versão atual** | `v1.4.5` |
+| **Versão atual** | `v1.5.0` |
 | **Data de lançamento** | 26/11/2026 |
-| **Tamanho do instalador (`SeasonalJobs_Setup.exe`)** | 42.97 MB |
-| **Hash SHA-256** | `57fe53ffa2adb574227e41d0a99d5604344bfa7ef652eb70ec426a5acc003d38` |
+| **Tamanho do instalador (`SeasonalJobs_Setup.exe`)** | 43.50 MB |
+| **Hash SHA-256** | `55ae9d930ec28796c9684041ac2d97a7a89f7e6f00f2fd1b1fdd97a9dc2ab61c` |
 
 - [Ver todas as versões lançadas e arquivos de verificação](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases)
 
 ---
 
-## Novidades da versão v1.4.5
+## Novidades da versão v1.5.0
 
-- Melhorias gerais de estabilidade, desempenho e compatibilidade na versão `v1.4.5`.
-- Consulte a página de releases para acompanhar os detalhes completos desta atualização.
+- Pré-validação DNS/MX e blacklist automática de bounces permanentes (hard bounces) - Suporte a Spintax nos modelos de e-mail, intervalo aleatório (jitter) e limite diário configurável por conta - Correção da duração e do ganho estimado em vagas H-2B itinerantes e padronização do prefixo `$` nos salários
 
 ---
 
@@ -74,5 +73,5 @@ Get-FileHash .\SeasonalJobs_Setup.exe -Algorithm SHA256
 Compare o resultado exibido no PowerShell com o hash desta versão:
 
 ```text
-57fe53ffa2adb574227e41d0a99d5604344bfa7ef652eb70ec426a5acc003d38
+55ae9d930ec28796c9684041ac2d97a7a89f7e6f00f2fd1b1fdd97a9dc2ab61c
 ```
