@@ -1,8 +1,8 @@
 # SeasonalJobs Automator
 
 <p align="center">
-  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.5.0">
-    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.5.0-2563EB?style=for-the-badge" alt="Versão v1.5.0">
+  <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/tag/v1.6.0">
+    <img src="https://img.shields.io/badge/Vers%C3%A3o-v1.6.0-2563EB?style=for-the-badge" alt="Versão v1.6.0">
   </a>
   <img src="https://img.shields.io/badge/Windows-10%2F11%20(64--bit)-0F172A?style=for-the-badge" alt="Windows 10/11 64-bit">
   <a href="https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe">
@@ -16,22 +16,22 @@ O **SeasonalJobs Automator** é um aplicativo desktop para **Windows 10 e Window
 
 ## Download (Versão Atual)
 
-[**Baixar SeasonalJobs_Setup.exe (v1.5.0)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
+[**Baixar SeasonalJobs_Setup.exe (v1.6.0)**](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases/latest/download/SeasonalJobs_Setup.exe)
 
 | Informação | Detalhes |
 | --- | --- |
-| **Versão atual** | `v1.5.0` |
-| **Data de lançamento** | 26/11/2026 |
-| **Tamanho do instalador (`SeasonalJobs_Setup.exe`)** | 43.50 MB |
-| **Hash SHA-256** | `55ae9d930ec28796c9684041ac2d97a7a89f7e6f00f2fd1b1fdd97a9dc2ab61c` |
+| **Versão atual** | `v1.6.0` |
+| **Data de lançamento** | 27/11/2026 |
+| **Tamanho do instalador (`SeasonalJobs_Setup.exe`)** | 44.22 MB |
+| **Hash SHA-256** | `8a1917c192f77c267ac698f9873e498cc3137772c4f7e186658c45d5737325dd` |
 
 - [Ver todas as versões lançadas e arquivos de verificação](https://github.com/joaovmartinsg/seasonal-jobs-releases/releases)
 
 ---
 
-## Novidades da versão v1.5.0
+## Novidades da versão v1.6.0
 
-- Pré-validação DNS/MX e blacklist automática de bounces permanentes (hard bounces) - Suporte a Spintax nos modelos de e-mail, intervalo aleatório (jitter) e limite diário configurável por conta - Correção da duração e do ganho estimado em vagas H-2B itinerantes e padronização do prefixo `$` nos salários
+- Persistência de histórico migrada para SQLite em modo WAL com importação automática e backup de segurança do histórico anterior - Backup e restauração completos em arquivo `.zip` com snapshot atômico do banco, verificação SHA-256 e proteção opcional da Senha de App - Pré-validação DNS/MX movida para segundo plano em paralelo após a confirmação, eliminando travamentos ao selecionar grandes lotes de vagas - Sincronização IMAP incremental por `UIDVALIDITY` e último `UID`, acelerando verificações de respostas e o Modo Sentinela - Novo Painel de Inteligência A/B (`Análises (A/B)`) com KPIs, ranking de modelos de e-mail, currículos, vistos, estados e horários, além de exportação em CSV - Correções de encerramento limpo de timers, threads em segundo plano e checkpoint do SQLite WAL ao fechar o aplicativo
 
 ---
 
@@ -73,5 +73,5 @@ Get-FileHash .\SeasonalJobs_Setup.exe -Algorithm SHA256
 Compare o resultado exibido no PowerShell com o hash desta versão:
 
 ```text
-55ae9d930ec28796c9684041ac2d97a7a89f7e6f00f2fd1b1fdd97a9dc2ab61c
+8a1917c192f77c267ac698f9873e498cc3137772c4f7e186658c45d5737325dd
 ```
